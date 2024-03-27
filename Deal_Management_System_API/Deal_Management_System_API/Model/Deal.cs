@@ -9,6 +9,7 @@ namespace Deal_Management_System_API.Model
         [Key]
         public int DealID { get; set; }
         public string DealName { get; set; }
+        public string Hotel { get; set; }
         public decimal Price { get; set; }
         public string Description { get; set; }
 

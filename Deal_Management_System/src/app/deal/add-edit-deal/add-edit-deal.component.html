@@ -6,6 +6,15 @@
         <input type="text" class="form-control" [(ngModel)]="DealName">
       </div>
       <div class="input-group mb-3">
+        <span class="input-group-text">Hotel</span>
+        <select class="form-select" [(ngModel)]="Hotel">
+          <option>--Select--</option>
+          <option *ngFor="let htl of HotelList">
+            {{htl.HotelName}}
+          </option>
+        </select>
+      </div>
+      <div class="input-group mb-3">
         <span class="input-group-text">Price</span>
         <input type="number" class="form-control" [(ngModel)]="Price">
       </div>

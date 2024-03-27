@@ -7,12 +7,14 @@ import { ApiserviceService } from '../../apiservice.service';
   styleUrls: ['./add-edit-deal.component.css']
 })
 export class AddEditDealComponent implements OnInit {
+HotelList: any;
 
   constructor(private service: ApiserviceService) { }
 
   @Input() deal: any;
   DealId = "";
   DealName = "";
+  Hotel = "";
   Price = "";
   Description = ""
 
@@ -20,6 +22,7 @@ export class AddEditDealComponent implements OnInit {
 
     this.DealId = this.deal.DealId;
     this.DealName = this.deal.DealName;
+    this.Hotel = this.Hotel;
     this.Price = this.deal.Price;
     this.Description = this. deal.Description
   }
@@ -28,6 +31,7 @@ export class AddEditDealComponent implements OnInit {
     var deal = {
       DealId: this.DealId,
       DealName: this.DealName,
+      Hotel: this.Hotel,
       Price : this.deal.Price,
       Description : this. deal.Description
 
@@ -41,6 +45,7 @@ export class AddEditDealComponent implements OnInit {
     var deal = {
       DealId: this.DealId,
       DealName: this.DealName,
+      Hotel: this.Hotel,
       Price : this.deal.Price,
       Description : this. deal.Description
     };

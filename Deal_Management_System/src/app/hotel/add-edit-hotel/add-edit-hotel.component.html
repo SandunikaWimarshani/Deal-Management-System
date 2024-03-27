@@ -1,0 +1,40 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="input-group mb-3">
+        <span class="input-group-text">Name</span>
+        <input type="text" class="form-control" [(ngModel)]="HotelName">
+      </div>
+      <div class="input-group mb-3">
+        <span class="input-group-text">Address</span>
+        <input type="text" class="form-control" [(ngModel)]="Address">
+      </div>
+      <div class="input-group mb-3">
+        <span class="input-group-text">Contact No</span>
+        <input type="text" class="form-control" [(ngModel)]="ContactNo">
+      </div>
+      <div class="input-group mb-3">
+        <span class="input-group-text">Rating</span>
+        <input type="number" class="form-control" [(ngModel)]="Rating">
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="mb-3">
+        <img class="img-fluid" [src]="PhotoFilePath" />
+      </div>
+      <div class="mb-3">
+        <input type="file" (change)="uploadPhoto($event)">
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <button type="button" (click)="addHotel()" *ngIf="htl.HotelId=='0'" class="btn btn-primary">
+        Create
+      </button>
+      <button type="button" (click)="updateHotel()" *ngIf="htl.HotelId!='0'" class="btn btn-primary">
+        Update
+      </button>
+    </div>
+  </div>
+</div>

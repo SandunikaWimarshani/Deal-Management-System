@@ -1,0 +1,28 @@
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <div class="input-group mb-3">
+        <span class="input-group-text">Deal Name</span>
+        <input type="text" class="form-control" [(ngModel)]="DealName">
+      </div>
+      <div class="input-group mb-3">
+        <span class="input-group-text">Price</span>
+        <input type="number" class="form-control" [(ngModel)]="Price">
+      </div>
+      <div class="input-group mb-3">
+        <span class="input-group-text">Description</span>
+        <input type="text" class="form-control" [(ngModel)]="Description">
+      </div>
+    </div>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <button (click)="addDeal()" *ngIf="deal.DealId == '0'" class="btn btn-primary btn-block">
+        Add
+      </button>
+      <button (click)="updateDeal()" *ngIf="deal.DealId != '0'" class="btn btn-primary btn-block">
+        Update
+      </button>
+    </div>
+  </div>
+</div>

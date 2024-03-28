@@ -7,10 +7,6 @@
       "RelativeMoniker": "D:0:0:{E71140EC-E6C4-402D-B145-44E4B70F785B}|Deal_Management_System_API\\Deal_Management_System_API.csproj|solutionrelative:deal_management_system_api\\model\\deal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dell\\source\\repos\\Deal_Management_System_API\\Deal_Management_System_API\\Migrations\\20240327105919_NewInitialDatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Deal_Management_System_API\\Migrations\\20240327105919_NewInitialDatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E71140EC-E6C4-402D-B145-44E4B70F785B}|Deal_Management_System_API\\Deal_Management_System_API.csproj|c:\\users\\dell\\source\\repos\\deal_management_system_api\\deal_management_system_api\\repository\\dealrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E71140EC-E6C4-402D-B145-44E4B70F785B}|Deal_Management_System_API\\Deal_Management_System_API.csproj|solutionrelative:deal_management_system_api\\repository\\dealrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -57,6 +53,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{E71140EC-E6C4-402D-B145-44E4B70F785B}|Deal_Management_System_API\\Deal_Management_System_API.csproj|c:\\users\\dell\\source\\repos\\deal_management_system_api\\deal_management_system_api\\repository\\idealrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E71140EC-E6C4-402D-B145-44E4B70F785B}|Deal_Management_System_API\\Deal_Management_System_API.csproj|solutionrelative:deal_management_system_api\\repository\\idealrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E71140EC-E6C4-402D-B145-44E4B70F785B}|Deal_Management_System_API\\Deal_Management_System_API.csproj|c:\\users\\dell\\source\\repos\\deal_management_system_api\\deal_management_system_api\\migrations\\20240327105919_newinitialdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E71140EC-E6C4-402D-B145-44E4B70F785B}|Deal_Management_System_API\\Deal_Management_System_API.csproj|solutionrelative:deal_management_system_api\\migrations\\20240327105919_newinitialdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,7 +70,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 13,
               "Title": "20240327105919_NewInitialDatabase.cs",
               "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\Deal_Management_System_API\\Deal_Management_System_API\\Migrations\\20240327105919_NewInitialDatabase.cs",
               "RelativeDocumentMoniker": "Deal_Management_System_API\\Migrations\\20240327105919_NewInitialDatabase.cs",
@@ -78,12 +78,11 @@
               "RelativeToolTip": "Deal_Management_System_API\\Migrations\\20240327105919_NewInitialDatabase.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T10:59:21.762Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-27T10:59:21.762Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "HotelController.cs",
               "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\Deal_Management_System_API\\Deal_Management_System_API\\Controllers\\HotelController.cs",
               "RelativeDocumentMoniker": "Deal_Management_System_API\\Controllers\\HotelController.cs",
@@ -91,12 +90,11 @@
               "RelativeToolTip": "Deal_Management_System_API\\Controllers\\HotelController.cs",
               "ViewState": "AQIAAFYAAAAAAAAAAAAmwF8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T05:35:27.205Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-27T05:35:27.205Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "DealController.cs",
               "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\Deal_Management_System_API\\Deal_Management_System_API\\Controllers\\DealController.cs",
               "RelativeDocumentMoniker": "Deal_Management_System_API\\Controllers\\DealController.cs",
@@ -104,12 +102,11 @@
               "RelativeToolTip": "Deal_Management_System_API\\Controllers\\DealController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T05:18:32.713Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-27T05:18:32.713Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\Deal_Management_System_API\\Deal_Management_System_API\\Program.cs",
               "RelativeDocumentMoniker": "Deal_Management_System_API\\Program.cs",
@@ -134,7 +131,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "HotelRepository.cs",
               "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\Deal_Management_System_API\\Deal_Management_System_API\\Repository\\HotelRepository.cs",
               "RelativeDocumentMoniker": "Deal_Management_System_API\\Repository\\HotelRepository.cs",
@@ -142,12 +139,11 @@
               "RelativeToolTip": "Deal_Management_System_API\\Repository\\HotelRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T04:56:49.723Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-27T04:56:49.723Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "DealRepository.cs",
               "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\Deal_Management_System_API\\Deal_Management_System_API\\Repository\\DealRepository.cs",
               "RelativeDocumentMoniker": "Deal_Management_System_API\\Repository\\DealRepository.cs",
@@ -155,12 +151,11 @@
               "RelativeToolTip": "Deal_Management_System_API\\Repository\\DealRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T04:44:05.286Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-27T04:44:05.286Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "Hotel.cs",
               "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\Deal_Management_System_API\\Deal_Management_System_API\\Model\\Hotel.cs",
               "RelativeDocumentMoniker": "Deal_Management_System_API\\Model\\Hotel.cs",
@@ -172,7 +167,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "DependencyInjectionConfig.cs",
               "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\Deal_Management_System_API\\Deal_Management_System_API\\DependencyInjectionConfig.cs",
               "RelativeDocumentMoniker": "Deal_Management_System_API\\DependencyInjectionConfig.cs",
@@ -184,7 +179,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\Deal_Management_System_API\\Deal_Management_System_API\\appsettings.json",
               "RelativeDocumentMoniker": "Deal_Management_System_API\\appsettings.json",
@@ -196,7 +191,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "20240327050551_InitialDatabase.cs",
               "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\Deal_Management_System_API\\Deal_Management_System_API\\Migrations\\20240327050551_InitialDatabase.cs",
               "RelativeDocumentMoniker": "Deal_Management_System_API\\Migrations\\20240327050551_InitialDatabase.cs",
@@ -208,7 +203,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "IHotelRepository.cs",
               "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\Deal_Management_System_API\\Deal_Management_System_API\\Repository\\IHotelRepository.cs",
               "RelativeDocumentMoniker": "Deal_Management_System_API\\Repository\\IHotelRepository.cs",
@@ -220,7 +215,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "APIDbContext.cs",
               "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\Deal_Management_System_API\\Deal_Management_System_API\\Model\\APIDbContext.cs",
               "RelativeDocumentMoniker": "Deal_Management_System_API\\Model\\APIDbContext.cs",
@@ -232,7 +227,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "IDealRepository.cs",
               "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\Deal_Management_System_API\\Deal_Management_System_API\\Repository\\IDealRepository.cs",
               "RelativeDocumentMoniker": "Deal_Management_System_API\\Repository\\IDealRepository.cs",
